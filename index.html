@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+
+    <title>Sadi Fretes e mudanças</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 py-2 text-center">
+                <img src="img/logo.png" class="logo-header img-fluid">
+                <!--Alterado resolução da logo no style.css-->
+            </div>
+
+            <!-- NAVBAR -->
+
+            <div class="col-md-8 col-sm-12 py-2 align-self-center justify-content-center">
+                <ul class="nav nav-justified py-2 bg-color4 rounded font-weight-bold">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- SLIDE -->
+        <div class="row">
+            <div class="col mt-2">
+                <div id="control" class="carousel slide" data-ride="carousel">
+                    <!-- Indicadores Posicão slide-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#control" data-slide-to="0" class="active"></li>
+                            <li data-target="#control" data-slide-to="1"></li>
+                            <li data-target="#control" data-slide-to="2"></li>
+                        </ol>
+                    <!-- Imagens Slide Resolução da imagens: 1200 x 500 -->
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/001.png" alt="Primeira Imagem">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/002.png" alt="Segunda Imagem">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/003.png" alt="Terceira Imagem">
+                        </div>
+                    </div>
+                    <!-- Controles Slide-->
+                    <a class="carousel-control-prev" href="#control" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#control" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Proximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Texto Demonstrativo -->
+        <div class="row">
+            <div class="col">
+                <h4 class="text-center mt-5">
+                    A SADI TRANSPORTES CONTA COM FUNCIONÁRIOS
+                    </br>
+                    QUE POSSUEM ANOS DE EXPERIENCIAS EM TRANSPORTES DE CARGA, 
+                    </br>
+                    DANDO ASSIM MAIS CONFIABILIDADE E SEGURANÇA
+                    </br>
+                    NO TRANSPORTE DE SUA ENCOMENDA.
+
+                </h4>
+            </div>
+        </div>
+
+    <hr>
+
+        <!-- imagens Veiculo -->
+        <div class="row mt-2 mb-2">
+            <div class="col-3">
+                <img src="img/t_003.jpg" class="img-fluid">
+            </div>
+            <div class="col-3">
+                <img src="img/t_002.jpg" class="img-fluid">
+            </div>
+            <div class="col-3">
+                <img src="img/t_001.jpg" class="img-fluid">
+            </div>
+            <div class="col-3">
+                <img src="img/t_004.jpg" class="img-fluid">
+            </div>
+        </div>
+
+    <hr>
+
+        <!-- Formulario -->
+        <div class="row">
+            <div class="col-md-6 col-sm-12 mt-2 border-right">
+                <form>
+                    <div class="text-center">
+                        <h3>Cotação de serviços</h3>
+                    </div>
+                    <div class="form-group">
+                      <label>Nome: *</label>
+                      <input type="text" class="form-control" placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail:</label>
+                        <input type="email" class="form-control" placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label>Telefone: *</label>
+                        <input type="tel" class="form-control" placeholder="Telefone com DDD">
+                    </div>
+                    <div class="text-center">
+                        <h3>Cidades</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label>Origem *</label>
+                            <input type="text" class="form-control" placeholder="Ex: Ampere - PR">
+                        </div>
+                        <div class="col-6">
+                            <label>Destino</label>
+                            <input type="text" class="form-control" placeholder="Ex: Dois Vizinhos - PR">
+                        </div>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Observaçoes</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                        <button class="btn btn-color4 btn-block" type="submit">ENVIAR</button>
+                  </form>
+            </div>
+
+            <!-- Mapa Brasil -->
+            <div class="col-md-6 col-sm-12 align-self-center text-center">
+                <h1 >Entrega em todo teritorio nacional.</h1>
+                <img src="img/brasil.png">
+            </div>
+        </div>
+
+            <!-- FOOTER -->
+
+        <footer>
+            <div class="row mt-5 bg-color4 py-5 rounded-top">
+                <div class="col text-center">
+                    <a href="https://facebook.com/jonasfr02">
+                        <i class="fab fa-facebook-f fa-lg text-white mr-3"> </i>
+                    </a>
+                    <a href="https://twitter.com/jonasfr02">
+                        <i class="fab fa-twitter fa-lg text-white mr-3"> </i>
+                    </a>
+                    <a href="https://linkedin.com/in/jonasfr02">
+                        <i class="fab fa-linkedin-in fa-lg text-white mr-3"> </i>
+                    </a>
+                    <a href="https://instagram.com/jonasfr02">
+                        <i class="fab fa-instagram fa-lg text-white"> </i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center bg-color2">
+                    <span class="text-white">© 2020 Copyright:</span>
+                    <a href="https://jonasfr02.blogspot.com.br" class="text-color4 font-weight-bold"> JonasFR02</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/jquery.js" ></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

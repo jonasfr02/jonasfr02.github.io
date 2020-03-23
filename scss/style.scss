@@ -1,0 +1,18 @@
+//Criar minah paleta de cores
+$color1 : #F1F0F2;
+$color2 : #252526;
+$color3 : #8C8C8C;
+$color4 : #034AA6;
+$color5 : #035AA6;
+$color6 : #34af23;
+
+$theme_colors : (
+    "color1": $color1,
+    "color2": $color2,
+    "color3": $color3,
+    "color4": $color4,
+    "color5": $color5,
+    "color6": $color6
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
